@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+
+# Build outputs; keep the supplied Gesto.spec tracked
+build/
+dist/
+release/
+
+# Local configuration, credentials, logs, and generated captures
+.env
+.env.*
+!.env.example
+config.json
+frame.json
+engine.log
+*.log
+gesto_smoke_*.png
+panel_layout_*.png
+
+# Installer is distributed through GitHub Releases
+Gesto_Setup_*.exe
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.swp
+*.swo
+
+# Keep glossary.json, test CSVs, Gesto.spec, supplied images,
+# and reports. Review their publication rights separately.
